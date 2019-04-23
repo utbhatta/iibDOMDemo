@@ -1,0 +1,33 @@
+<!-- ***************************************************************** -->
+<!-- -->
+<!-- IBM Confidential -->
+<!-- -->
+<!-- Licensed Materials - Property of IBM -->
+<!-- -->
+<!-- (C) Copyright IBM Corp. 2017, 2018 All Rights Reserved. -->
+<!-- -->
+<!-- The source code for this program is not published or otherwise -->
+<!-- divested of its trade secrets, irrespective of what has been -->
+<!-- deposited with the U.S. Copyright Office. -->
+<!-- -->
+<!-- ***************************************************************** -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.ibm.iibautobot</groupId>
+		<artifactId>iib-autobot-parent</artifactId>
+		<version>1.0-SNAPSHOT</version>
+		<relativePath>../iib-autobot-parent/pom.xml</relativePath>
+	</parent>
+	<artifactId>iib-bld</artifactId>
+	<name>iib-bld</name>
+	<packaging>pom</packaging>
+	<description>
+	</description>
+	<modules>
+		<module>../App1</module>
+		<module>../App2</module>
+		<module>../Library1</module>		</modules>
+</project>

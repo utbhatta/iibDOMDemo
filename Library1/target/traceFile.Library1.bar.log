@@ -1,0 +1,420 @@
+2019-04-23 16:42:25.0023 main........... i: Message Flow API - Basic Information:
+System CLASSPATH = C:\Program Files\IBM\WebSphere MQ\java\lib\com.ibm.mq.jar;C:\Program Files\IBM\WebSphere MQ\java\lib\com.ibm.mqjms.jar;C:\Program Files\IBM\WebSphere MQ\java\lib\connector.jar;C:\Program Files\IBM\WebSphere MQ\java\lib\com.ibm.mq.pcf.jar;C:\Program Files\IBM\WebSphere MQ\java\lib\com.ibm.mq.jmqi.jar;C:\Program Files\IBM\WebSphere MQ\java\lib\com.ibm.mq.headers.jar;C:\Program Files\IBM\WebSphere MQ\java\lib\com.ibm.mq.commonservices.jar;C:\Program Files\IBM\IIB\10.0.0.1\server\messages;C:\Program Files\IBM\IIB\10.0.0.1\common\classes;C:\Program Files\IBM\IIB\10.0.0.1\server\classes;C:\Program Files\IBM\IIB\10.0.0.1\common\jetty\lib\websocket-common.jar;C:\Program Files\IBM\IIB\10.0.0.1\common\jetty\lib\websocket-client.jar;C:\Program Files\IBM\IIB\10.0.0.1\common\jetty\lib\websocket-api.jar;C:\Program Files\IBM\IIB\10.0.0.1\common\jetty\lib\jetty-util.jar;C:\Program Files\IBM\IIB\10.0.0.1\common\jetty\lib\jetty-io.jar;C:\Program Files\IBM\IIB\10.0.0.1\common\classes\IntegrationAPI.jar;C:\Program Files\IBM\IIB\10.0.0.1\server\classes\brokerutil.jar;C:\Program Files\IBM\WebSphere MQ\java\lib\com.ibm.mqjms.jar;C:\Program Files\IBM\WebSphere MQ\java\lib\com.ibm.mq.jar;C:\ProgramData\IBM\MQSI\common\wsrr
+System OS Name = Windows 8.1
+System OS Architecture = amd64
+System OS Version = 6.3
+System JRE Version = 1.7.0
+System JRE Vendor = IBM Corporation
+Message Flow API Version = 80
+Message Flow API SCCS Version = %W% %I%
+com.ibm.broker.config.appdev.MessageFlow loaded from file:/C:/Program%20Files/IBM/IIB/10.0.0.1/common/classes/IntegrationAPI.jar!/com/ibm/broker/config/appdev/MessageFlow.class
+com.ibm.broker.config.appdev.FlowRendererMSGFLOW loaded from file:/C:/Program%20Files/IBM/IIB/10.0.0.1/common/classes/IntegrationAPI.jar!/com/ibm/broker/config/appdev/FlowRendererMSGFLOW.class
+com.ibm.broker.config.appdev.FlowRendererBAR loaded from file:/C:/Program%20Files/IBM/IIB/10.0.0.1/common/classes/IntegrationAPI.jar!/com/ibm/broker/config/appdev/FlowRendererBAR.class
+com.ibm.broker.config.appdev.FlowRendererCMF loaded from file:/C:/Program%20Files/IBM/IIB/10.0.0.1/common/classes/IntegrationAPI.jar!/com/ibm/broker/config/appdev/FlowRendererCMF.class
+com.ibm.broker.config.proxy.BrokerProxy loaded from file:/C:/Program%20Files/IBM/IIB/10.0.0.1/common/classes/IntegrationAPI.jar!/com/ibm/broker/config/proxy/BrokerProxy.class
+com.ibm.broker.config.common.UUIDHelper loaded from file:/C:/Program%20Files/IBM/IIB/10.0.0.1/common/classes/IntegrationAPI.jar!/com/ibm/broker/config/common/UUIDHelper.class
+com.ibm.broker.config.util.ParameterList loaded from file:/C:/Program%20Files/IBM/IIB/10.0.0.1/server/classes/brokerutil.jar!/com/ibm/broker/config/util/ParameterList.class
+com.ibm.mq.MQEnvironment loaded from file:/C:/Program%20Files/IBM/WebSphere%20MQ/java/lib/com.ibm.mq.jar!/com/ibm/mq/MQEnvironment.class
+java.lang.System loaded from file:/C:/Program%20Files/IBM/IIB/10.0.0.1/common/jdk/jre/bin/compressedrefs/jclSC170/vm.jar!/java/lang/System.class
+2019-04-23 16:42:25.0026 main........... i: com.ibm.broker.LoggerFile instantiated
+2019-04-23 16:42:25.0027 main........... { com.ibm.broker.config.appdev.CommandProcessor.packageBAR(.., C:\Users\UtpalBhattacharya\iibDOMDemo\Library1\target/classes/BARfiles/Library1.bar, [], [Library1], [], [], 
+2019-04-23 16:42:25.0027 main...........   i: Include source - ..\Library1
+2019-04-23 16:42:25.0028 main...........   { com.ibm.broker.config.appdev.FlowRendererBAR.write(.., [Library1], C:\Users\UtpalBhattacharya\iibDOMDemo\Library1\target\classes\BARfiles, false, 
+2019-04-23 16:42:25.0036 main...........     { com.ibm.broker.config.appdev.FlowRendererInternalBAR.write(.., [Library1], C:\Users\UtpalBhattacharya\iibDOMDemo\Library1\target\classes\BARfiles, Library1.bar, true, 0, false, 
+2019-04-23 16:42:25.0039 main...........       { com.ibm.broker.config.appdev.BARUtil.setIncludeAllArtifacts(false, 
+2019-04-23 16:42:25.0039 main...........       } com.ibm.broker.config.appdev.BARUtil.setIncludeAllArtifacts()
+2019-04-23 16:42:25.0042 main...........       { com.ibm.broker.config.appdev.FlowRendererInternalBAR.toInputStream([Library1], null, true, 0, 
+2019-04-23 16:42:25.0042 main...........         { com.ibm.broker.config.appdev.FlowRendererInternalBAR.toByteArray(.., [Library1], null, true, 0, 
+2019-04-23 16:42:25.0046 main...........           { com.ibm.broker.config.appdev.FlowRendererInternalBAR.zipDirectory(.., Library1, true, java.util.zip.ZipOutputStream@cde83fa2, 
+2019-04-23 16:42:25.0047 main...........             { com.ibm.broker.config.appdev.BARUtil.zipEntryExists(java.util.zip.ZipOutputStream@cde83fa2, Library1, 
+2019-04-23 16:42:25.0048 main...........             } com.ibm.broker.config.appdev.BARUtil.zipEntryExists() false
+2019-04-23 16:42:25.0052 main...........             { com.ibm.broker.config.appdev.DotProject.parse(..\Library1\.project, 
+2019-04-23 16:42:25.0052 main...........               { com.ibm.broker.config.appdev.BARUtil.readFileAsString(..\Library1\.project, 
+2019-04-23 16:42:25.0053 main...........               } com.ibm.broker.config.appdev.BARUtil.readFileAsString() <?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Library1</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.ibm.etools.mft.java.builder.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.applib.applibbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.applib.applibresourcevalidator</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.connector.policy.ui.PolicyBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.connector.ui.editor.connectorServiceBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.connector.ui.editor.connectorEventBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.uri.sharedlibbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.applib.mbprojectbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.msg.validation.dfdl.mlibdfdlbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.flow.adapters.adapterbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.flow.sca.scabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.msg.validation.dfdl.mbprojectresourcesbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.esql.lang.esqllangbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.map.builder.mslmappingbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.flow.msgflowxsltbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.flow.msgflowbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.decision.service.ui.decisionservicerulebuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.pattern.capture.PatternBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.msg.validation.dfdl.dfdlqnamevalidator</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.bar.ext.barbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.unittest.ui.TestCaseBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>com.ibm.etools.msgbroker.tooling.libraryNature</nature>
+		<nature>com.ibm.etools.msgbroker.tooling.messageBrokerProjectNature</nature>
+		<nature>com.ibm.etools.msgbroker.tooling.sharedLibraryNature</nature>
+		<nature>com.ibm.etools.mft.bar.ext.barnature</nature>
+	</natures>
+</projectDescription>
+
+2019-04-23 16:42:25.0162 main...........               i: The .project file contains the nature: org.eclipse.m2e.core.maven2Nature
+2019-04-23 16:42:25.0162 main...........               i: The .project file contains the nature: com.ibm.etools.msgbroker.tooling.libraryNature
+2019-04-23 16:42:25.0162 main...........               i: The .project file contains the nature: com.ibm.etools.msgbroker.tooling.messageBrokerProjectNature
+2019-04-23 16:42:25.0162 main...........               i: The .project file contains the nature: com.ibm.etools.msgbroker.tooling.sharedLibraryNature
+2019-04-23 16:42:25.0163 main...........               i: The .project file contains the nature: com.ibm.etools.mft.bar.ext.barnature
+2019-04-23 16:42:25.0163 main...........             } com.ibm.broker.config.appdev.DotProject.parse()
+2019-04-23 16:42:25.0169 main...........             { com.ibm.broker.config.appdev.BARInternalZip.Constructor(Library1, java.util.zip.ZipOutputStream@cde83fa2, 
+2019-04-23 16:42:25.0169 main...........             } com.ibm.broker.config.appdev.BARInternalZip.Constructor()
+2019-04-23 16:42:25.0169 main...........             { com.ibm.broker.config.appdev.ShlibZip.Constructor(.., Library1, true, java.util.zip.ZipOutputStream@cde83fa2, 
+2019-04-23 16:42:25.0177 main...........               { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1852, inserts=[Library1])
+2019-04-23 16:42:25.0178 main...........                 { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1852)
+2019-04-23 16:42:25.0178 main...........                 } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0178 main...........                 { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0179 main...........                 } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0180 main...........               } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0180 main...........               { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1852I: Processing file 'Library1'., 
+2019-04-23 16:42:25.0180 main...........               } com.ibm.broker.config.appdev.BARLog.removeMessageId() Processing file 'Library1'.
+2019-04-23 16:42:25.0181 main...........               { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1872, inserts=null)
+2019-04-23 16:42:25.0181 main...........                 { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1872)
+2019-04-23 16:42:25.0181 main...........                 } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0182 main...........               } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0182 main...........               { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1872I: Shared library contents:, 
+2019-04-23 16:42:25.0182 main...........               } com.ibm.broker.config.appdev.BARLog.removeMessageId() Shared library contents:
+2019-04-23 16:42:25.0182 main...........               { com.ibm.broker.config.appdev.BARInternalZip.handleContent(.., Library1, true, 
+2019-04-23 16:42:25.0183 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(.classpath, 
+2019-04-23 16:42:25.0184 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0184 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(.classpath, 
+2019-04-23 16:42:25.0184 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0184 main...........                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.classpath, 
+2019-04-23 16:42:25.0185 main...........                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2019-04-23 16:42:25.0185 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(.project, 
+2019-04-23 16:42:25.0185 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0186 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(.project, 
+2019-04-23 16:42:25.0186 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0186 main...........                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.project, 
+2019-04-23 16:42:25.0186 main...........                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2019-04-23 16:42:25.0187 main...........                 { com.ibm.broker.config.appdev.BARInternalZip.zipDirectory(..\Library1, .settings, true, 
+2019-04-23 16:42:25.0189 main...........                   { com.ibm.broker.config.appdev.BARUtil.isFlow(org.eclipse.core.resources.prefs, 
+2019-04-23 16:42:25.0189 main...........                   } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0190 main...........                   { com.ibm.broker.config.appdev.BARUtil.isFlow(org.eclipse.core.resources.prefs, 
+2019-04-23 16:42:25.0190 main...........                   } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0190 main...........                   { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(org.eclipse.core.resources.prefs, 
+2019-04-23 16:42:25.0191 main...........                   } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2019-04-23 16:42:25.0191 main...........                   { com.ibm.broker.config.appdev.BARUtil.isFlow(org.eclipse.jdt.core.prefs, 
+2019-04-23 16:42:25.0191 main...........                   } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0191 main...........                   { com.ibm.broker.config.appdev.BARUtil.isFlow(org.eclipse.jdt.core.prefs, 
+2019-04-23 16:42:25.0192 main...........                   } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0192 main...........                   { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(org.eclipse.jdt.core.prefs, 
+2019-04-23 16:42:25.0192 main...........                   } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2019-04-23 16:42:25.0193 main...........                   { com.ibm.broker.config.appdev.BARUtil.isFlow(org.eclipse.m2e.core.prefs, 
+2019-04-23 16:42:25.0193 main...........                   } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0193 main...........                   { com.ibm.broker.config.appdev.BARUtil.isFlow(org.eclipse.m2e.core.prefs, 
+2019-04-23 16:42:25.0194 main...........                   } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0194 main...........                   { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(org.eclipse.m2e.core.prefs, 
+2019-04-23 16:42:25.0194 main...........                   } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2019-04-23 16:42:25.0195 main...........                 } com.ibm.broker.config.appdev.BARInternalZip.zipDirectory()
+2019-04-23 16:42:25.0195 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(library.descriptor, 
+2019-04-23 16:42:25.0196 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0196 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(library.descriptor, 
+2019-04-23 16:42:25.0196 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0196 main...........                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(library.descriptor, 
+2019-04-23 16:42:25.0197 main...........                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() true
+2019-04-23 16:42:25.0197 main...........                 { com.ibm.broker.config.appdev.BARInternalZip.zipFile(..\Library1, library.descriptor, 
+2019-04-23 16:42:25.0197 main...........                   { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1852, inserts=[library.descriptor])
+2019-04-23 16:42:25.0198 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1852)
+2019-04-23 16:42:25.0198 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0198 main...........                     { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0198 main...........                     } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0199 main...........                   } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0199 main...........                   { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1852I: Processing file 'library.descriptor'., 
+2019-04-23 16:42:25.0199 main...........                   } com.ibm.broker.config.appdev.BARLog.removeMessageId() Processing file 'library.descriptor'.
+2019-04-23 16:42:25.0199 main...........                   i: Include artifiact - library.descriptor
+2019-04-23 16:42:25.0202 main...........                   { com.ibm.broker.config.appdev.BARUtil.addZipEntry(java.util.zip.ZipOutputStream@f631201c, library.descriptor, 
+2019-04-23 16:42:25.0202 main...........                   } com.ibm.broker.config.appdev.BARUtil.addZipEntry()
+2019-04-23 16:42:25.0202 main...........                   { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1859, inserts=[library.descriptor])
+2019-04-23 16:42:25.0202 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1859)
+2019-04-23 16:42:25.0202 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0203 main...........                     { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0204 main...........                     } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0204 main...........                   } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0204 main...........                   { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1859I: Successfully added file 'library.descriptor' to the BAR file., 
+2019-04-23 16:42:25.0204 main...........                   } com.ibm.broker.config.appdev.BARLog.removeMessageId() Successfully added file 'library.descriptor' to the BAR file.
+2019-04-23 16:42:25.0210 main...........                   { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1861, inserts=[0.008])
+2019-04-23 16:42:25.0211 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1861)
+2019-04-23 16:42:25.0212 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0212 main...........                     { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0213 main...........                     } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0213 main...........                   } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0213 main...........                   { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1861I: Elapsed time: '0.008' second(s)., 
+2019-04-23 16:42:25.0213 main...........                   } com.ibm.broker.config.appdev.BARLog.removeMessageId() Elapsed time: '0.008' second(s).
+2019-04-23 16:42:25.0214 main...........                 } com.ibm.broker.config.appdev.BARInternalZip.zipFile()
+2019-04-23 16:42:25.0214 main...........                 { com.ibm.broker.config.appdev.BARInternalZip.zipDirectory(..\Library1, Library1, true, 
+2019-04-23 16:42:25.0215 main...........                   { com.ibm.broker.config.appdev.BARUtil.isFlow(ESQ1.esql, 
+2019-04-23 16:42:25.0216 main...........                   } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0216 main...........                   { com.ibm.broker.config.appdev.BARUtil.isFlow(ESQ1.esql, 
+2019-04-23 16:42:25.0216 main...........                   } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0217 main...........                   { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(ESQ1.esql, 
+2019-04-23 16:42:25.0217 main...........                   } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() true
+2019-04-23 16:42:25.0217 main...........                   { com.ibm.broker.config.appdev.BARInternalZip.zipFile(..\Library1, Library1\ESQ1.esql, 
+2019-04-23 16:42:25.0217 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1852, inserts=[Library1\ESQ1.esql])
+2019-04-23 16:42:25.0218 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1852)
+2019-04-23 16:42:25.0218 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0218 main...........                       { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0218 main...........                       } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0219 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0219 main...........                     { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1852I: Processing file 'Library1\ESQ1.esql'., 
+2019-04-23 16:42:25.0221 main...........                     } com.ibm.broker.config.appdev.BARLog.removeMessageId() Processing file 'Library1\ESQ1.esql'.
+2019-04-23 16:42:25.0221 main...........                     i: Include artifiact - Library1\ESQ1.esql
+2019-04-23 16:42:25.0229 main...........                     { com.ibm.broker.config.appdev.BARUtil.addZipEntry(java.util.zip.ZipOutputStream@f631201c, Library1\ESQ1.esql, 
+2019-04-23 16:42:25.0230 main...........                     } com.ibm.broker.config.appdev.BARUtil.addZipEntry()
+2019-04-23 16:42:25.0230 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1859, inserts=[Library1\ESQ1.esql])
+2019-04-23 16:42:25.0231 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1859)
+2019-04-23 16:42:25.0231 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0231 main...........                       { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0232 main...........                       } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0232 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0232 main...........                     { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1859I: Successfully added file 'Library1\ESQ1.esql' to the BAR file., 
+2019-04-23 16:42:25.0232 main...........                     } com.ibm.broker.config.appdev.BARLog.removeMessageId() Successfully added file 'Library1\ESQ1.esql' to the BAR file.
+2019-04-23 16:42:25.0233 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1861, inserts=[0.012])
+2019-04-23 16:42:25.0233 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1861)
+2019-04-23 16:42:25.0233 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0233 main...........                       { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0234 main...........                       } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0234 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0234 main...........                     { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1861I: Elapsed time: '0.012' second(s)., 
+2019-04-23 16:42:25.0234 main...........                     } com.ibm.broker.config.appdev.BARLog.removeMessageId() Elapsed time: '0.012' second(s).
+2019-04-23 16:42:25.0234 main...........                   } com.ibm.broker.config.appdev.BARInternalZip.zipFile()
+2019-04-23 16:42:25.0235 main...........                 } com.ibm.broker.config.appdev.BARInternalZip.zipDirectory()
+2019-04-23 16:42:25.0235 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(pom.xml, 
+2019-04-23 16:42:25.0235 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0235 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(pom.xml, 
+2019-04-23 16:42:25.0235 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0236 main...........                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(pom.xml, 
+2019-04-23 16:42:25.0236 main...........                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() true
+2019-04-23 16:42:25.0236 main...........                 { com.ibm.broker.config.appdev.BARInternalZip.zipFile(..\Library1, pom.xml, 
+2019-04-23 16:42:25.0236 main...........                   { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1852, inserts=[pom.xml])
+2019-04-23 16:42:25.0236 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1852)
+2019-04-23 16:42:25.0237 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0237 main...........                     { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0237 main...........                     } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0237 main...........                   } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0238 main...........                   { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1852I: Processing file 'pom.xml'., 
+2019-04-23 16:42:25.0238 main...........                   } com.ibm.broker.config.appdev.BARLog.removeMessageId() Processing file 'pom.xml'.
+2019-04-23 16:42:25.0238 main...........                   i: Include artifiact - pom.xml
+2019-04-23 16:42:25.0239 main...........                   { com.ibm.broker.config.appdev.BARUtil.addZipEntry(java.util.zip.ZipOutputStream@f631201c, pom.xml, 
+2019-04-23 16:42:25.0239 main...........                   } com.ibm.broker.config.appdev.BARUtil.addZipEntry()
+2019-04-23 16:42:25.0239 main...........                   { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1859, inserts=[pom.xml])
+2019-04-23 16:42:25.0239 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1859)
+2019-04-23 16:42:25.0240 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0240 main...........                     { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0240 main...........                     } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0240 main...........                   } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0241 main...........                   { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1859I: Successfully added file 'pom.xml' to the BAR file., 
+2019-04-23 16:42:25.0241 main...........                   } com.ibm.broker.config.appdev.BARLog.removeMessageId() Successfully added file 'pom.xml' to the BAR file.
+2019-04-23 16:42:25.0241 main...........                   { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1861, inserts=[0.003])
+2019-04-23 16:42:25.0241 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1861)
+2019-04-23 16:42:25.0241 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0242 main...........                     { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0242 main...........                     } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0242 main...........                   } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0242 main...........                   { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1861I: Elapsed time: '0.003' second(s)., 
+2019-04-23 16:42:25.0242 main...........                   } com.ibm.broker.config.appdev.BARLog.removeMessageId() Elapsed time: '0.003' second(s).
+2019-04-23 16:42:25.0243 main...........                 } com.ibm.broker.config.appdev.BARInternalZip.zipFile()
+2019-04-23 16:42:25.0243 main...........                 { com.ibm.broker.config.appdev.BARInternalZip.zipDirectory(..\Library1, target, true, 
+2019-04-23 16:42:25.0243 main...........                   { com.ibm.broker.config.appdev.BARInternalZip.zipDirectory(..\Library1, target\antrun, true, 
+2019-04-23 16:42:25.0244 main...........                     { com.ibm.broker.config.appdev.BARUtil.isFlow(build-commandLineBARfileBuild.xml, 
+2019-04-23 16:42:25.0244 main...........                     } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0244 main...........                     { com.ibm.broker.config.appdev.BARUtil.isFlow(build-commandLineBARfileBuild.xml, 
+2019-04-23 16:42:25.0244 main...........                     } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0245 main...........                     { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(build-commandLineBARfileBuild.xml, 
+2019-04-23 16:42:25.0245 main...........                     } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() true
+2019-04-23 16:42:25.0245 main...........                     { com.ibm.broker.config.appdev.BARInternalZip.zipFile(..\Library1, target\antrun\build-commandLineBARfileBuild.xml, 
+2019-04-23 16:42:25.0245 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1852, inserts=[target\antrun\build-commandLineBARfileBuild.xml])
+2019-04-23 16:42:25.0246 main...........                         { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1852)
+2019-04-23 16:42:25.0246 main...........                         } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0246 main...........                         { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0246 main...........                         } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0247 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0247 main...........                       { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1852I: Processing file 'target\antrun\build-commandLineBARfileBuild.xml'., 
+2019-04-23 16:42:25.0247 main...........                       } com.ibm.broker.config.appdev.BARLog.removeMessageId() Processing file 'target\antrun\build-commandLineBARfileBuild.xml'.
+2019-04-23 16:42:25.0248 main...........                       i: Include artifiact - target\antrun\build-commandLineBARfileBuild.xml
+2019-04-23 16:42:25.0248 main...........                       { com.ibm.broker.config.appdev.BARUtil.addZipEntry(java.util.zip.ZipOutputStream@f631201c, target\antrun\build-commandLineBARfileBuild.xml, 
+2019-04-23 16:42:25.0249 main...........                       } com.ibm.broker.config.appdev.BARUtil.addZipEntry()
+2019-04-23 16:42:25.0249 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1859, inserts=[target\antrun\build-commandLineBARfileBuild.xml])
+2019-04-23 16:42:25.0249 main...........                         { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1859)
+2019-04-23 16:42:25.0250 main...........                         } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0250 main...........                         { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0250 main...........                         } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0251 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0251 main...........                       { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1859I: Successfully added file 'target\antrun\build-commandLineBARfileBuild.xml' to the BAR file., 
+2019-04-23 16:42:25.0251 main...........                       } com.ibm.broker.config.appdev.BARLog.removeMessageId() Successfully added file 'target\antrun\build-commandLineBARfileBuild.xml' to the BAR file.
+2019-04-23 16:42:25.0252 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1861, inserts=[0.004])
+2019-04-23 16:42:25.0252 main...........                         { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1861)
+2019-04-23 16:42:25.0252 main...........                         } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0252 main...........                         { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0253 main...........                         } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0253 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0253 main...........                       { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1861I: Elapsed time: '0.004' second(s)., 
+2019-04-23 16:42:25.0254 main...........                       } com.ibm.broker.config.appdev.BARLog.removeMessageId() Elapsed time: '0.004' second(s).
+2019-04-23 16:42:25.0254 main...........                     } com.ibm.broker.config.appdev.BARInternalZip.zipFile()
+2019-04-23 16:42:25.0254 main...........                   } com.ibm.broker.config.appdev.BARInternalZip.zipDirectory()
+2019-04-23 16:42:25.0255 main...........                   { com.ibm.broker.config.appdev.BARInternalZip.zipDirectory(..\Library1, target\classes, true, 
+2019-04-23 16:42:25.0255 main...........                     { com.ibm.broker.config.appdev.BARInternalZip.zipDirectory(..\Library1, target\classes\BARfiles, true, 
+2019-04-23 16:42:25.0256 main...........                     } com.ibm.broker.config.appdev.BARInternalZip.zipDirectory()
+2019-04-23 16:42:25.0257 main...........                   } com.ibm.broker.config.appdev.BARInternalZip.zipDirectory()
+2019-04-23 16:42:25.0258 main...........                   { com.ibm.broker.config.appdev.BARUtil.isFlow(traceFile.Library1.bar.log, 
+2019-04-23 16:42:25.0259 main...........                   } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0259 main...........                   { com.ibm.broker.config.appdev.BARUtil.isFlow(traceFile.Library1.bar.log, 
+2019-04-23 16:42:25.0259 main...........                   } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0259 main...........                   { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(traceFile.Library1.bar.log, 
+2019-04-23 16:42:25.0260 main...........                   } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2019-04-23 16:42:25.0260 main...........                 } com.ibm.broker.config.appdev.BARInternalZip.zipDirectory()
+2019-04-23 16:42:25.0260 main...........               } com.ibm.broker.config.appdev.BARInternalZip.handleContent()
+2019-04-23 16:42:25.0261 main...........               { com.ibm.broker.config.appdev.BARInternalZip.save()
+2019-04-23 16:42:25.0261 main...........                 { com.ibm.broker.config.appdev.BARUtil.addZipEntry(java.util.zip.ZipOutputStream@cde83fa2, Library1, 
+2019-04-23 16:42:25.0262 main...........                 } com.ibm.broker.config.appdev.BARUtil.addZipEntry()
+2019-04-23 16:42:25.0262 main...........               } com.ibm.broker.config.appdev.BARInternalZip.save() true
+2019-04-23 16:42:25.0262 main...........               { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1871, inserts=[Library1.shlibzip])
+2019-04-23 16:42:25.0263 main...........                 { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1871)
+2019-04-23 16:42:25.0263 main...........                 } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0263 main...........                 { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0264 main...........                 } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0264 main...........               } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0265 main...........               { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1871I: Shared library file 'Library1.shlibzip' successfully added to the BAR file., 
+2019-04-23 16:42:25.0265 main...........               } com.ibm.broker.config.appdev.BARLog.removeMessageId() Shared library file 'Library1.shlibzip' successfully added to the BAR file.
+2019-04-23 16:42:25.0265 main...........               { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1861, inserts=[0.083])
+2019-04-23 16:42:25.0266 main...........                 { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1861)
+2019-04-23 16:42:25.0266 main...........                 } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0266 main...........                 { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0266 main...........                 } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2019-04-23 16:42:25.0267 main...........               } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0267 main...........               { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1861I: Elapsed time: '0.083' second(s)., 
+2019-04-23 16:42:25.0267 main...........               } com.ibm.broker.config.appdev.BARLog.removeMessageId() Elapsed time: '0.083' second(s).
+2019-04-23 16:42:25.0267 main...........             } com.ibm.broker.config.appdev.ShlibZip.Constructor()
+2019-04-23 16:42:25.0268 main...........           } com.ibm.broker.config.appdev.FlowRendererInternalBAR.zipDirectory()
+2019-04-23 16:42:25.0268 main...........           { com.ibm.broker.config.appdev.BARLog.toByteArray()
+2019-04-23 16:42:25.0269 main...........           } com.ibm.broker.config.appdev.BARLog.toByteArray() [B@da081ee0
+2019-04-23 16:42:25.0269 main...........           { com.ibm.broker.config.appdev.BARLog.toByteArray()
+2019-04-23 16:42:25.0270 main...........           } com.ibm.broker.config.appdev.BARLog.toByteArray() [B@ef150726
+2019-04-23 16:42:25.0270 main...........         } com.ibm.broker.config.appdev.FlowRendererInternalBAR.toByteArray() [B@fe71aeac
+2019-04-23 16:42:25.0271 main...........       } com.ibm.broker.config.appdev.FlowRendererInternalBAR.toInputStream() java.io.ByteArrayInputStream@c5626a07
+2019-04-23 16:42:25.0278 main...........       { com.ibm.broker.config.appdev.BARUtil.setIncludeAllArtifacts(false, 
+2019-04-23 16:42:25.0278 main...........       } com.ibm.broker.config.appdev.BARUtil.setIncludeAllArtifacts()
+2019-04-23 16:42:25.0280 main...........       { com.ibm.broker.config.appdev.BARUtil.isFlow(Library1.shlibzip, 
+2019-04-23 16:42:25.0280 main...........       } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0280 main...........       { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(Library1.shlibzip, 
+2019-04-23 16:42:25.0281 main...........       } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2019-04-23 16:42:25.0281 main...........       { com.ibm.broker.config.appdev.BARUtil.isSupportedZip(Library1.shlibzip, 
+2019-04-23 16:42:25.0281 main...........       } com.ibm.broker.config.appdev.BARUtil.isSupportedZip() true
+2019-04-23 16:42:25.0283 main...........       { com.ibm.broker.config.appdev.BARUtil.isFlow(   library.descriptor, 
+2019-04-23 16:42:25.0283 main...........       } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2019-04-23 16:42:25.0284 main...........       { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(   library.descriptor, 
+2019-04-23 16:42:25.0284 main...........       } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() true
+2019-04-23 16:42:25.0284 main...........     } com.ibm.broker.config.appdev.FlowRendererInternalBAR.write()
+2019-04-23 16:42:25.0285 main...........   } com.ibm.broker.config.appdev.FlowRendererBAR.write()
+2019-04-23 16:42:25.0285 main...........   { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1845, inserts=null)
+2019-04-23 16:42:25.0285 main...........     { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1845)
+2019-04-23 16:42:25.0285 main...........     } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2019-04-23 16:42:25.0286 main...........   } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2019-04-23 16:42:25.0286 main........... } com.ibm.broker.config.appdev.CommandProcessor.packageBAR()
+2019-04-23 16:42:25.0287 main........... w: Warning: Logger null could not be instantiated with parameters null

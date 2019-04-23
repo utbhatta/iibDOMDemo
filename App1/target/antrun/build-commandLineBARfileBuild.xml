@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="commandLineBARfileBuild"  >
+<target name="commandLineBARfileBuild">
+  <condition value="../iib-autobot-parent/buildBARfile.cmd" property="buildBARfile.prog">
+    <os family="windows"/>
+  </condition>
+  <condition value="../iib-autobot-parent/buildBARfile.bash" property="buildBARfile.prog">
+    <not>
+      <os family="windows"/>
+    </not>
+  </condition>
+  <property name="buildBARfile.fixed.options" value="-a C:\Users\UtpalBhattacharya\iibDOMDemo\App1\target/classes/BARfiles/App1.bar -w .. -k App1 -v C:\Users\UtpalBhattacharya\iibDOMDemo\App1\target/traceFile.App1.bar.log"/>
+  <condition else="-a C:\Users\UtpalBhattacharya\iibDOMDemo\App1\target/classes/BARfiles/App1.bar -w .. -y App1 -v C:\Users\UtpalBhattacharya\iibDOMDemo\App1\target/traceFile.App1.bar.log" value="-a C:\Users\UtpalBhattacharya\iibDOMDemo\App1\target/classes/BARfiles/App1.bar -w .. -k App1 -v C:\Users\UtpalBhattacharya\iibDOMDemo\App1\target/traceFile.App1.bar.log" property="buildBARfile.options">
+    <isset property="isSharedLib"/>
+  </condition>
+  <echo message="Build Message: in &apos;C:\Users\UtpalBhattacharya\iibDOMDemo\App1&apos; running &apos;${buildBARfile.prog} ${buildBARfile.options}&apos; ..."/>
+  <exec dir="C:\Users\UtpalBhattacharya\iibDOMDemo\App1" executable="${buildBARfile.prog}" failonerror="true">
+    <arg line="${buildBARfile.options}"/>
+  </exec>
+</target>
+</project>
