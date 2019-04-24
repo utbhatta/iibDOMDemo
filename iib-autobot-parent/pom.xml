@@ -17,6 +17,7 @@
 	<!-- -->
 	<properties>
 		<companyName>IBM Corp</companyName>
+		<devOPsHome>C:\Jenkins\workspace\IIBDEVOPs</devOPsHome>
 		<apacheAntVer>1.9.2</apacheAntVer>
 		<bldsdkVer>1.7</bldsdkVer>
 		<srcjavaDir>src/main/java</srcjavaDir>
@@ -433,8 +434,9 @@
 								<configuration>
 									<skip>${skipBARfile}</skip>
 									<target name="commandLineBARfileBuild">
-										<condition property="buildBARfile.prog"
-											value="../${project.parent.artifactId}/buildBARfile.cmd">
+<!-- 										<condition property="buildBARfile.prog" value="../${project.parent.artifactId}/buildBARfile.cmd"> -->
+											<condition property="buildBARfile.prog" value="${devOPsHome}/${project.parent.artifactId}/buildBARfile.cmd">
+											
 											<os family="windows" />
 										</condition>
 										<condition property="buildBARfile.prog"
