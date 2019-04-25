@@ -5,7 +5,7 @@ CREATE COMPUTE MODULE ESQ1
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
 		-- CALL CopyMessageHeaders();
-		CALL CopyEntireMessage();
+		-- CALL CopyEntireMessage();
 		RETURN TRUE;
 	END;
 
